@@ -4,8 +4,10 @@
   const SITE_URL = "https://tumpony.fun";
   const TOKEN = "Trumpony";
   const URL_X = "https://x.com/TRUMPonyFUN";
-  const URL_TELEGRAM = "";
+  const URL_TELEGRAM = "https://t.me/trumponyfun";
   const URL_PUMPFUN = "";
+  const URL_TEAM = "https://t.me/h4xedby";
+
   let show = $state(false);
 
   onMount(() => {
@@ -17,7 +19,7 @@
 
 <svelte:head>
 	<title>{TOKEN} :: new hero meme token</title>
-	<meta name="description" content="{TOKEN} :: new awsome hero meme token. It is here to make Meme Coins GREAT AGAIN!" />
+	<meta name="description" content="{TOKEN} :: new awesome hero meme token. It is here to make Meme Coins GREAT AGAIN!" />
   <meta name="twitter:card" content="summary">
 	<meta name="twitter:title" content="{TOKEN} :: new hero meme token">
 	<meta name="twitter:description" content="{TOKEN} :: new awsome hero meme token. It is here to make Meme Coins GREAT AGAIN!">
@@ -125,7 +127,7 @@
   </div>
 </section>
 
-<section class="section mb-16 md:mb-24 relative z-[2]">
+<section class="section mb-14 md:mb-24 relative z-[2]">
   <div class="section-inner px-6 md:px-0">
     <header class="flex flex-col justify-center mb-4 md:mb-6">
       <h2 class="h2 font-semibold text-3xl">
@@ -200,6 +202,17 @@
   </div>
 </section>
 
-<footer class="section h-10 md:h-24 relative flex items-center justify-center">
-  <div class="hero-glow -bottom-1 !h-0 !w-28 opacity-50"></div>
+<footer class="section h-20 md:h-24 relative flex justify-center">
+  <div>
+    <a 
+      href={URL_TEAM} 
+      target="_blank" 
+      class="text-gray-600 рh-fit text-sm border-b border-gray-700 hover:text-sky-600 hover:border-sky-700 transition-colors"
+    >
+      <span class="font-bold">DC</span> meme-maker team
+    </a>
+  </div>
+
+  <div class="hero-glow -bottom-1 !h-0 !w-28 opacity-50">
+  </div>
 </footer>
