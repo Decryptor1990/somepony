@@ -41,7 +41,7 @@
         a new <span class="font-semibold text-amber-300">hero meme token</span>!
       </p>
       <p class="text-lg md:text-xl text-slate-300 mb-4 md:mb-8">
-        He is here to make Meme Coins<br>
+        It's here to make Meme Coins<br>
         <span class="text-xl md:text-2xl font-semibold">
           GREATE AGAIN!
         </span>
