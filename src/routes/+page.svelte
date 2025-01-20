@@ -5,7 +5,7 @@
   const TOKEN = "Trumpony";
   const URL_X = "https://x.com/TRUMPonyFUN";
   const URL_TELEGRAM = "https://t.me/trumponyfun";
-  const URL_PUMPFUN = "";
+  const URL_PUMPFUN = "https://pump.fun/coin/F5dPeLsEt1gksYgpXG8XRBNzaaZ7RVEbVnSmpa3Gpump";
   const URL_TEAM = "https://t.me/h4xedby";
 
   let show = $state(false);
